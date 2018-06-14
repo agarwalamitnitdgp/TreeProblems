@@ -1,12 +1,10 @@
-package amazon;
+package Tree;
 
 import java.util.ArrayList;
 import java.util.TreeMap;
 import java.util.Map.Entry;
 
 public class BottomViewBinaryTree {
-
-
 
 	public void printBottomView(Node root, int hd){
 		TreeMap<Integer,ArrayList<Integer>> verticalMap = new TreeMap<>();
@@ -46,5 +44,4 @@ public class BottomViewBinaryTree {
 		BottomViewBinaryTree bottomViewObject = new BottomViewBinaryTree();
 		bottomViewObject.printBottomView(root, 0);
 	}
-
 }
